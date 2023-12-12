@@ -1,0 +1,185 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: black;
+    --secondary-color: #8b0000;
+    --accent1-color: #ffa500;
+    --accent2-color: #ffff00;
+
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: times;
+    --paragraph-font: times;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: white;  /* headlines on a white background */ 
+    --headline-color-on-color: black; /* headlines on a colored background */ 
+    --paragraph-color-on-white: white; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: black; /* paragraph text on a colored background */ 
+    --paragraph-background-color: black ;
+    --nav-link-color: blue;
+    --nav-background-color: black;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: black;
+  }
+  
+  
+  /*  Look around below...but DON'T CHANGE ANYTHING! */
+  
+  body {
+    
+  
+   display: block;
+    margin:  8px;
+    text-align: center;
+    background-color: black;
+  }
+  img {
+    max-width: 100%;
+   
+}
+  
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+    
+    
+    font-size: 13px;
+  }
+  h1 {
+    text-decoration-line: underline;
+    font-style: italic;
+    font-size: xx-large;
+    color: var(--accent2-color);
+    margin: 0;
+  }
+  h2 {
+    text-align: center;
+    color: var(--secondary-color);
+    font-style: italic;
+    font-size: xx-large;
+    margin: 0;
+  }
+  h3 {
+    color: var(--paragraph-color-on-white);
+    margin: 0;
+  }
+  h4{
+    font-size: xx-large;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+  }
+  h5{
+    font-size: large;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+  }
+  td{
+    display: table-cell;
+    vertical-align: inherit;
+   
+    font-style: italic;
+}
+
+  
+  hr {
+    height: 2px;
+   width: auto;
+    background-color: white;
+    margin: 8px 56px;
+    
+  }
+  header {
+    width: inherit;
+    text-align: center;
+    color: var(--headline-color-on-color);
+    background-color: var(--paragraph-background-color);
+  }
+  .logo {
+    width: 80%;
+    height: 125px;
+  }
+ .gif{
+    float: left;
+    /* padding-bottom: 100px;
+    padding-top: 100px; */
+ }
+ .gif1{ 
+    float: right;
+    /* padding-bottom: 100px;
+    padding-top: 100px; */
+ }
+ .welcome{
+     width: 50% ;
+    object-fit: fill;
+    
+ }
+  
+  
+  p {
+    
+    color: var(--paragraph-color-on-white);
+    
+  }
+  .colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+    color: white;
+    
+  }
+  
+  .primary {
+    background-color: var(--primary-color);
+  }
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+  .accent1 {
+    background-color: var(--accent1-color);
+  }
+  .accent2{
+    background-color: var(--accent2-color);
+  }
+  
+  p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+  }
+  
+  nav {
+    background-color: var(--nav-background-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  nav  {
+    list-style-type: none;
+    display: flex;
+  
+  }
+  nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+  
+  }
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+  
+  
+ 
