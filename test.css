@@ -80,6 +80,11 @@
    
     font-style: italic;
 }
+table {
+  border: 12;
+  text-align: center;
+  
+}
 
   
   hr {
