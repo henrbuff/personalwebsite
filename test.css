@@ -83,7 +83,10 @@
 #shop{
   width: 700px;
 }
-
+#biography{
+  width: 500px;
+  height: 500px;
+}
  table{
   border: 12px solid;
   border-style: outset;
@@ -96,13 +99,16 @@
  
  td{
   text-align: center;
-  padding: 1px;
+  padding: 10px;
   border: 1px solid;
   border-style: inset;
   border-color: #71717a;;
   vertical-align: middle;
+  
+
 
  }
+ 
 #portrat{
   height: 275px; width:200px;
 }
@@ -180,31 +186,35 @@
     color: var(--paragraph-color-on-color);
   }
   
-  nav {
-    background-color: var(--nav-background-color);
-    line-height: 3em;
+  .navbar {
+    width: 50%;
+    border-color: #71717a;;
+    overflow: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    border: 5px solid;
+    border-style: outset;
+    border-spacing: 2px;
+    
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: center;
     text-align: center;
-    font-size: 1.2em;
-  }
-  nav  {
-    list-style-type: none;
-    display: flex;
-  
-  }
-  nav a {
-    padding:1em;
-    min-width: 120px;
+    padding: 12px;
+    color: white;
     text-decoration: none;
-    padding: 10px;
-  
-  }
-  nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-  }
-  nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+    font-size: 17px;
   }
   
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: var(--secondary-color);
+  }
   
- 
+  /* Current/active navbar link */
+  .active {
+    background-color: black;
+  }
