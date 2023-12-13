@@ -27,7 +27,7 @@
   
   body {
     
-  
+  max-width: 100%;
    display: block;
     margin:  8px;
     text-align: center;
@@ -80,15 +80,37 @@
    
     font-style: italic;
 }
-table {
-  border: 12;
-  text-align: center;
-  
+#shop{
+  width: 700px;
 }
+td{
+ width: 200px;
+}
+ table{
+  border: 12px solid;
+  border-style: outset;
+  border-spacing: 2px;
+  margin: 0 auto; 
+  border-color: #71717a; 
+  max-width: 100%;
+  
+ }
+ 
+ td{
+  text-align: center;
+  padding: 1px;
+  border: 1px solid;
+  border-style: inset;
+  border-color: #71717a;;
+  vertical-align: middle;
 
+ }
+#portrat{
+  height: 275px; width:200px;
+}
   
   hr {
-    height: 2px;
+    height: 1;
    width: auto;
     background-color: white;
     margin: 8px 56px;
